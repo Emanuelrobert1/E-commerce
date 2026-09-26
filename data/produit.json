@@ -1,0 +1,14 @@
+data/produits.json
+
+assets/
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── images/
+    ├── produit-1.svg
+    ├── produit-2.svg
+    ├── produit-3.svg
+    ├── produit-4.svg
+    ├── produit-5.svg
+    └── produit-6.svg
