@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Boutique e-commerce professionnelle.">
+<title>BoutiquePro — Accueil</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="index.html">Boutique<span>Pro</span></a>
+    <button class="menu" id="menu">☰</button>
+    <nav id="nav">
+      <a href="index.html">Accueil</a>
+      <a href="produits.html">Produits</a>
+      <a href="contact.html">Contact</a>
+      <a href="connexion.html">Connexion</a>
+      <a class="cart" href="panier.html">🛒 Panier <b id="cart-count">0</b></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<span class="badge">Boutique e-commerce professionnelle</span>
+<h1>Une boutique moderne pour <span>vendre en ligne.</span></h1>
+<p>Présentez vos produits, recevez des commandes et offrez à vos clients une expérience simple sur téléphone et ordinateur.</p>
+<div class="actions">
+<a class="btn primary" href="produits.html">Voir les produits</a>
+<a class="btn outline" href="contact.html">Nous contacter</a>
+</div>
+</div>
+<div class="hero-card">
+<div class="hero-icon">🛍️</div>
+<h2>Simple. Moderne. Rapide.</h2>
+<p>Catalogue, recherche, panier et commande prêts à personnaliser.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="heading"><small>CATALOGUE</small><h2>Produits populaires</h2><p>Modifiez facilement les produits dans <code>data/produits.json</code>.</p></div>
+<div id="home-products" class="products"></div>
+<div class="center"><a class="btn primary" href="produits.html">Tout voir</a></div>
+</div>
+</section>
+
+<section class="section alt">
+<div class="container features">
+<div><strong>🚚</strong><h3>Livraison</h3><p>Préparez vos options de livraison.</p></div>
+<div><strong>🔒</strong><h3>Sécurité</h3><p>Architecture prête pour un backend sécurisé.</p></div>
+<div><strong>📱</strong><h3>Responsive</h3><p>Adapté aux mobiles, tablettes et ordinateurs.</p></div>
+<div><strong>💬</strong><h3>Contact</h3><p>Facilitez les échanges avec vos clients.</p></div>
+</div>
+</section>
+</main>
+
+<footer><div class="container footer-grid"><div><a class="logo" href="index.html">Boutique<span>Pro</span></a><p>Votre boutique en ligne professionnelle.</p></div><div><h3>Pages</h3><a href="produits.html">Produits</a><a href="panier.html">Panier</a><a href="contact.html">Contact</a></div><div><h3>Compte</h3><a href="connexion.html">Connexion</a><a href="inscription.html">Inscription</a></div></div><div class="copyright">© 2026 BoutiquePro</div></footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
